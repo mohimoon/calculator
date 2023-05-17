@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+     <center>
+    
+    <div class="buttons
+    ">
+        
+       <form name="form1">
+        <input type="text" class="textview" name="textview">
+       </form>
+       <table>
+        <tr>
+           <td><input type="button" class="pinky" value="C" onclick=" form1.textview.value=''"></td>
+           <td><input type="button" class="pinky" value="E" onclick="insert('E')"></td>
+           <td><input type="button" class="pinky" value="B" onclick="backspace()"></td>
+           <td><input type="button" class="pinky" value="*" onclick="insert('*')"></td>
+         </tr>
+         <tr>
+            <td><input type="button" class="btn" value="7" onclick="insert('7')"></td>
+            <td><input type="button" class="btn" value="8" onclick="insert('8')"></td>
+            <td><input type="button" class="btn" value="9" onclick="insert('9')"></td>
+            <td><input type="button" class="pinky" value="/" onclick="insert('/')"></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="btn" value="4" onclick="insert('4')"></td>
+            <td><input type="button" class="btn" value="5" onclick="insert('5')"></td>
+            <td><input type="button" class="btn" value="6" onclick="insert('6')"></td>
+            <td><input type="button" class="pinky" value="-" onclick="insert('-')"></td>
+          </tr>
+          <tr>
+            <td><input type="button" class="btn" value="1" onclick="insert('1')"></td>
+            <td><input type="button" class="btn" value="2" onclick="insert('2')"></td>
+            <td><input type="button" class="btn" value="3" onclick="insert('3')"></td>
+            <td><input type="button" class="pinky" value="+" onclick="insert('+')"></td>
+          <tr>
+            <td><input class="btn" value="0" type="button" onclick="insert('0')"></td>
+            <td><input class="btn" value="00" type="button" onclick="insert('00')"></td>
+            <td><input class="btn" value="." type="button" onclick="insert('.')"></td>
+            <td><input class="equal" value="=" type="button" onclick="equal('')"></td>
+          </tr>
+            
+        
+        
+          </tr>
+        
+
+       </table>
+
+
+
+
+
+        </center>
+     
+
+        
+
+    </div>
+    <script src="scrypt.js"></script>
+</body>
+
+</html>

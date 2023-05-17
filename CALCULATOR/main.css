@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: white;
+
+}
+.btn {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin: 4px;
+    cursor: grab;
+    background-color: white;
+    color: rgb(5, 2, 2);
+    border-radius: 30px; 
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+        
+        background-color: rgba(139, 144, 95, 0);
+        padding: 20px;
+        width: 300px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        border:5px double #7c4dff ;
+        border-radius: 15px;
+        box-shadow: 0 2px 14px 1.5px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        color: #7c4dff;
+      
+    }
+    .btn:hover{
+        background: #7e57c2;
+    }
+    .pinky {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin: 4px;
+    cursor: grab;
+    background-color:  #b39ddb;
+    color: rgb(5, 2, 2);
+    border-radius: 30px; 
+    justify-content: center;
+    align-items: center;
+    }
+.pinky:hover{
+    background:  #7e57c2;
+}
+    .insert:hover {
+        background: white;
+    }
+
+    .textview {
+        width: 250px;
+        margin: 10px;
+        font-size: 24px;
+        padding: 15px;
+        background-color: #FFFFFF;
+        border: 3px solid blueviolet;
+        border-radius: 7px;
+        outline: none; }
+
+.equal {
+    background: blueviolet;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin: 4px;
+    cursor: grab;
+    color: rgb(5, 2, 2);
+    border-radius: 30px; 
+    justify-content: center;
+    align-items: center;
+}
+.equal:hover {
+    background:#6200ea;
+}
+.btn:hover {
+    background:   #9a9a9a;
+}
+/* h1{
+    text-align: center;
+    /* background: blueviolet; */
+    /* color: #9c3030;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+letter-spacing: 0.3rem; */
+/* } */ */
+/* @font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+
+.purples {
+    font-family: 'Rocher';
+  text-align: center;
+  font-size: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-palette-values --Purples {
+    font-family: Rocher;
+    base-palette: 6;
+  }
+
+  .purples {
+    font-palette: --Purples;
+  }
+  
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.btn {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: pink;
+    color: #eee;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    background: #444;
+}
+
+.textview {
+    width: 305px;
+    margin: 10px;
+    font-size: 24px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 3px solid #000;
+    border-radius: 7px;
+    outline: none;
+}
+h1{
+    text-align: center;
+    background: #161623;
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+letter-spacing: 0.3rem;
